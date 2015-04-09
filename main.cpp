@@ -1,6 +1,6 @@
 /**
  * This program tries to consume all stack memory and on stack memory shortage 
- * signal hanlder is raised that prints the used stack size (at least manually 
+ * signal handler is raised that prints the used stack size (at least manually 
  * allocated by means of alloca() call). 
  *
  * Man pages on alloca() mention undefined behavior on memory allocation failure
